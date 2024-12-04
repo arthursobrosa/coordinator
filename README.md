@@ -9,6 +9,10 @@
 
 #### Then you can create a class that conforms to this protocol to control navigation on a UIViewController
 
+<img src="./README-images/coordinator-class.png" width="500" alt="Coordinator Class">
+
+<img src="./README-images/navigation-protocol.png" width="500" alt="Navigation Protocol">
+
 ---
 
 #### Create a reference to the coordinator inside your UIViewController
