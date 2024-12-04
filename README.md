@@ -25,3 +25,5 @@
 #### Use a method from coordinator inside your UIViewController
 <img src="./README-images/vc-call.png" width="400" alt="Coordinator ref inside VC">
 <img src="./README-images/start.png" width="400" alt="Coordinator ref inside VC">
+<img src="./README-images/nav-delegate.png" width="400" alt="Coordinator ref inside VC">
+<img src="./README-images/transition-delegate.png" width="400" alt="Coordinator ref inside VC">
