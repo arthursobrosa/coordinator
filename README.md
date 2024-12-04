@@ -34,6 +34,11 @@
 
 ---
 
-### Use UINavigationControllerDelegate or UIViewControllerTransitioningDelegate to observe changes on a navigation
+#### Use UINavigationControllerDelegate or UIViewControllerTransitioningDelegate to observe changes on a navigation
 <img src="./README-images/nav-delegate.png" width="800" alt="UINavigationControllerDelegate">
 <img src="./README-images/transition-delegate.png" width="900" alt="UIViewControllerTransitioningDelegate">
+
+#### * To use these delegates you must conform your Coordinator class with NSObject
+
+#### * Remember to call 'childDidFinish' method when a UIViewController is dismissed to remove the current coordinator from its parent coordinator
+
